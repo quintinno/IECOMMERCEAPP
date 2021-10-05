@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button routerLink="/welcome" routerDirection="back" class="button-background">
+        <img src="../../assets/image/application/back.svg" />
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <div class="ion-padding container">
+
+    <h1>Autenticação</h1>
+
+    <div class="form-container">
+      
+      <ion-item>
+        <ion-label position="floating">E-mail</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Senha</ion-label>
+        <ion-input type="password"></ion-input>
+        <ion-icon name="eye" slot="end"></ion-icon>
+      </ion-item>
+
+      <ion-button expand="block" class="main-button">Acessar</ion-button>
+
+      <div class="autenticacao">
+        <ion-button color="dark" fill="clear">Recuperar Senha</ion-button>
+      </div>
+
+    </div>
+
+  </div>
+
+</ion-content>
