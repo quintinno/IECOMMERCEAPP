@@ -8,3 +8,38 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+// SegoeUI
+@font-face {
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./assets/fonts/SegoeUI/Segoe\ UI.ttf");
+}
+
+@font-face {
+    font-family: "Segoe UI Bold";
+    font-style: normal;
+    font-weight: bold;
+    src: url("./assets/fonts/SegoeUI/Segoe\ UI\ Bold.ttf");
+}
+
+// Poppins
+@font-face {
+    font-family: "Poppins Medium";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./assets/fonts/Poppins/Poppins-Medium.ttf");
+}
+
+// SF PRO
+@font-face {
+    font-family: "SF PRO";
+    font-style: normal;
+    font-weight: normal;
+    src: url("./assets/fonts/San\ Francisco\ PRO/SF-Pro.ttf");
+}
+
+* {
+    font-family: "Segoe UI";
+}
